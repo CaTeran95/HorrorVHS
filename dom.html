@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilo.css">
+        <title>Horror VHS</title>
+	</head>
+
+    <body onload="cambiar_contenido()">
+        <h1>Horror VHS</h1>
+        
+        <script>
+            //variables
+            document.write('<div id="contenedorjs"></div>')
+        </script>
+        
+        <main>
+        
+        <form class="forma" >
+            Pelicula: <input type="text" id="nombre"/>
+            <br>Te gusta el horror ?Si <input type="radio" id="rsi" name="pro" value="si"/>
+            No <input type="radio" id="rno" name="pro" value="no"/>
+            <br>
+            Marca si siempre has sido fan: <input type="checkbox" id="cliente" value="si"/>
+            <br>
+            <button type="button"  onclick="confirmar()">Validar</button>
+            <button type="button" onclick="clean()">Limpiar</button>
+        </form>
+
+        <!-- Added by Carlos Terán -->
+
+        <!-- Example changing everything in  -->
+        <div id="enteredInformation"></div>
+
+        <!-- Example changing the innerText of the Tags -->
+        <div id="enteredInformation2" class="card">
+            <h3>Película: </h3>
+            <p>Te gusta el horror: </p>
+            <p>Siempre has sido fan? </p>
+        </div>
+
+        <!-- End of the addition -->
+
+        </main>
+        
+        <script src="script1.js"></script>
+            
+    </body>
+
+</html>

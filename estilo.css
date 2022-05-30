@@ -1,0 +1,90 @@
+* { padding: 0; 
+    margin: 0; 
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box; }
+
+body{background-image: url(./img/it-chapter-two-2019-4k-6j-1920x1080.jpg);
+size-adjust: cover;
+background-size: cover;}
+
+
+.verde,.azul,.rojo,.amarillo {
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    box-shadow: 2px 2px 2px #CCCCCC;
+    -moz-box-shadow: 2px 2px 2px #CCCCCC;
+    -webkit-box-shadow: 2px 2px 2px #CCCCCC;
+    align-items: center;
+    margin: 10px auto 10px;
+}
+.verde {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #006600;
+    background-color: #0b1ac480;
+    color: #006600;
+}
+.azul {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #006600;
+    background-color: #66CCFF;
+    color: #006600;
+}
+.rojo {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #0d0d0d;
+    background-color: #FFCCCC;
+    color: #FF0000;
+}
+.amarillo {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #CCCC00;
+    background-color: #FFFFCC;
+    color: #CCCC00;
+}
+h1{
+
+
+    text-align: center;
+}
+
+.cards{
+
+
+    align-items: center;
+    border: #FF0000;
+}
+
+.forma{
+
+    text-align: center;
+    margin-top: 250px;
+}
+
+.solicitud{
+
+    text-align: center;
+}
+
+/* Added by Carlos Terán */
+
+.card {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 1.25rem;
+    background-color: #ffffff42;
+    border: #000000 solid 1px;
+    border-radius: 20px;
+
+}
+
+/* End of the addition */
